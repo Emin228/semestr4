@@ -37,6 +37,7 @@ class DbCurrency(Base):
         secondary="sub_table",
         back_populates="currencies"
     )
+    
 sub_table = Table(
     "sub_table",
     Base.metadata,
