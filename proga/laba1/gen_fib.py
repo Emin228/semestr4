@@ -29,7 +29,8 @@ def fib_coroutine(g):
 
 my_gen = fib_coroutine(my_genn)
 gen = my_gen()
-print(gen.send(100))
+print(gen.send(10))
+
 
 
              

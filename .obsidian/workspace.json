@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "00f1842bf42d3a32",
+        "id": "08d0bf7e6fbbb97d",
         "type": "tabs",
         "children": [
           {
-            "id": "1f7244ba895cf981",
+            "id": "94ad6cd2fac65de6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "proga/laba1/Отчёт по лабораторной работе №1.md",
+                "file": "Долги.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Отчёт по лабораторной работе №1"
+              "title": "Долги"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 201.5,
+    "collapsed": true
   },
   "right": {
     "id": "6b8e25713142b72d",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "мат стат/закон расспредления/ЛАб№1, матстат. Элизбарян Э.В, ИВТ1-1.pdf",
+                "file": "Долги.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ЛАб№1, матстат. Элизбарян Э.В, ИВТ1-1"
+              "title": "Backlinks for Долги"
             }
           },
           {
@@ -183,18 +184,28 @@
       "bases:Create new base": false
     }
   },
-  "active": "1f7244ba895cf981",
+  "active": "94ad6cd2fac65de6",
   "lastOpenFiles": [
-    "Untitled.base",
-    "proga/laba1/Отчёт по лабораторной работе №1.md",
+    "комп моделирование/laba1/Лаб№1, комп моделирование Элизбарян Э.В.pdf",
+    "комп моделирование/laba1/mso555D.tmp",
+    "комп моделирование/laba1/~WRL0003.tmp",
+    "комп моделирование/laba1/~WRD0002.tmp",
+    "комп моделирование/лаба7/~$избарян Э.В, ИВТ1-1 лаба7.docx",
+    "комп моделирование/laba1/~$б№1, комп моделирование Элизбарян Э.В.docx",
+    "комп моделирование/laba1/Лаб№1, комп моделирование Элизбарян Э.В.docx",
+    "комп моделирование/laba1/New Microsoft Word Document.docx",
+    "мат стат/доверительный интервал/0CB7ED20",
+    "мат стат/доверительный интервал/20069420",
+    "мат стат/доверительный интервал/~$Лаб_Доверительный _интервал_Элизбарян Э.В.xlsx",
     "бд/lab№1.md",
+    "Долги.md",
+    "proga/laba3/Отчёт по лабораторной работе№3.md",
+    "2026-03-14.md",
+    "proga/laba1/Отчёт по лабораторной работе №1.md",
     "Pasted image 20260304121356.png",
     "Pasted image 20260304121246.png",
-    "бд/sql2.sql",
     "Pasted image 20260304120815.png",
-    "бд/sql1.sql",
     "Pasted image 20260304114437.png",
-    "Pasted image 20260304114213.png",
-    "мат стат/закон расспредления/ЛАб№1, матстат. Элизбарян Э.В, ИВТ1-1.pdf"
+    "Pasted image 20260304114213.png"
   ]
 }

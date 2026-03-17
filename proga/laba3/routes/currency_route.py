@@ -13,8 +13,7 @@ async def GetCurrencies(db: Session = Depends(get_db)):
     currencies = db.execute(
         select(DbCurrency)
     ).scalars().all()
-    db.add(currencies)
-    db.commit()
+    
     if not  currencies:
         return {"message": "Db is empty"}
     return currencies

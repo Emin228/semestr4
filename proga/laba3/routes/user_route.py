@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Depends, HTTPException, APIRouter
+from fastapi import  Depends, HTTPException, APIRouter
 from requests import Session
 from sqlalchemy import select
 from sqlalchemy.orm import Session
@@ -14,7 +14,7 @@ async def create_user(new_user: User, db: Session = Depends(get_db)):
     ).scalar_one_or_none()
 
     if existing_user:
-        raise HTTPException(status_code=400, detail="User already exists")
+        raise HTTPException(status_code=409, detail="User already exists")
     
     db_user = DbUser(
         username = new_user.username,
