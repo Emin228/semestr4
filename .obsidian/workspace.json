@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "94ad6cd2fac65de6",
+            "id": "8aa1037c43817676",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Долги.md",
+                "file": "комп мод/yandex cloud.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Долги"
+              "title": "yandex cloud"
             }
           }
         ]
@@ -184,28 +184,34 @@
       "bases:Create new base": false
     }
   },
-  "active": "94ad6cd2fac65de6",
+  "active": "8aa1037c43817676",
   "lastOpenFiles": [
-    "комп моделирование/laba1/Лаб№1, комп моделирование Элизбарян Э.В.pdf",
-    "комп моделирование/laba1/mso555D.tmp",
-    "комп моделирование/laba1/~WRL0003.tmp",
-    "комп моделирование/laba1/~WRD0002.tmp",
-    "комп моделирование/лаба7/~$избарян Э.В, ИВТ1-1 лаба7.docx",
-    "комп моделирование/laba1/~$б№1, комп моделирование Элизбарян Э.В.docx",
-    "комп моделирование/laba1/Лаб№1, комп моделирование Элизбарян Э.В.docx",
-    "комп моделирование/laba1/New Microsoft Word Document.docx",
-    "мат стат/доверительный интервал/0CB7ED20",
-    "мат стат/доверительный интервал/20069420",
-    "мат стат/доверительный интервал/~$Лаб_Доверительный _интервал_Элизбарян Э.В.xlsx",
-    "бд/lab№1.md",
+    "Pasted image 20260402225431.png",
+    "Pasted image 20260402225322.png",
+    "Pasted image 20260402225240.png",
+    "Pasted image 20260402225127.png",
+    "Pasted image 20260402225126.png",
+    "Pasted image 20260402225012.png",
+    "комп мод/bucket.py",
+    "Pasted image 20260402161659.png",
+    "Pasted image 20260402161657.png",
+    "Pasted image 20260402161408.png",
+    "Pasted image 20260402161247.png",
+    "Pasted image 20260402160908.png",
+    "комп мод/example.txt",
+    "комп мод/New Text Document.txt",
+    "мат стат/эспер данные/17472D20",
     "Долги.md",
+    "комп мод/yandex cloud.md",
+    "комп мод",
+    "мат стат/эспер данные/D10B7C20",
+    "мат стат/доверительный интервал/70A07C20",
+    "мат стат/эспер данные/~$Обработка_эксперементальных_данных_Элизбарян Э,В,.xlsx",
+    "мат стат/эспер данные/Обработка_эксперементальных_данных_Элизбарян Э,В,.xlsx",
+    "мат стат/эспер данные/~ew Microsoft Excel Worksheet.tmp",
+    "бд/lab№1.md",
     "proga/laba3/Отчёт по лабораторной работе№3.md",
     "2026-03-14.md",
-    "proga/laba1/Отчёт по лабораторной работе №1.md",
-    "Pasted image 20260304121356.png",
-    "Pasted image 20260304121246.png",
-    "Pasted image 20260304120815.png",
-    "Pasted image 20260304114437.png",
-    "Pasted image 20260304114213.png"
+    "proga/laba1/Отчёт по лабораторной работе №1.md"
   ]
 }

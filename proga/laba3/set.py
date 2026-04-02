@@ -4,7 +4,7 @@ from sqlalchemy.orm import Mapped, mapped_column, DeclarativeBase, sessionmaker,
 
 
 engine = create_engine(
-    "sqlite+pysqlite:///C:/Users/Emin/4_semestr/proga/laba3/data.db", 
+    "sqlite+pysqlite:../data.db", 
     echo=True
 )  
 
