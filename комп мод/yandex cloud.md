@@ -6,24 +6,29 @@
 
 
 Готов наш первый бакет был создан:
-![[Pasted image 20260402155740.png]]
+<img width="898" height="199" alt="Screenshot 2026-04-02 155732" src="https://github.com/user-attachments/assets/43d84d94-2882-4283-ae27-e17a543faf4b" />
+
 
 
 ## 2.Создание сервисного аккаунта
 
 В яндекс консоли ищем вкладку "Identity and Access Management", полсе чего выбираем создание своего первого сервисного аккаунта:
-![[Pasted image 20260402161247.png]]
+<img width="720" height="390" alt="Screenshot 2026-04-02 161246" src="https://github.com/user-attachments/assets/ac5113b6-2ae1-414f-920f-6fb754a0089f" />
+
 
 
 Готов аккаунт был создан:
 
-![[Pasted image 20260402161408.png]]
+<img width="1223" height="239" alt="Screenshot 2026-04-02 161406" src="https://github.com/user-attachments/assets/9075c6be-9610-4380-bb17-9bb9cb0c91a2" />
+
 
 Также создаём статический Api-ключ и сохраняем полученныйе индентификаторв ключа и личный секретный ключ
 
 
 ## 3.Предоставление сервисному аккаунта прав доступа:
-Для этого возвращаемся в бакет -> Безопасность -> Права доступа -> Назначить роль:![[Pasted image 20260402161659.png]]
+Для этого возвращаемся в бакет -> Безопасность -> Права доступа -> Назначить роль
+<img width="706" height="474" alt="Screenshot 2026-04-02 161656" src="https://github.com/user-attachments/assets/595b343b-c840-45eb-bccd-26768fdbbe31" />
+
 Выбираем созданный акк, и самое главное выдаём ему роль "editor", для наших задач (загрузка, скачивание, просмотр списка, удаление файлов)
 
 ## 4.Реализация функций для выполнения основных операций
@@ -69,7 +74,8 @@ s3_upload("example.txt", buck, key)
 ```
 
 После запуска в YandexCloud видим добавленный файл:
-![[Pasted image 20260402225012.png]]
+<img width="1077" height="293" alt="Screenshot 2026-04-02 225011" src="https://github.com/user-attachments/assets/57c1d547-464c-4ec5-a31b-3da8ef2e46b1" />
+
 
 ### Получение спика файлов:
 
@@ -86,7 +92,8 @@ s3_getAllFiles(buck)
 ```
 
 Вывод в терминале:
-![[Pasted image 20260402225127.png]]
+<img width="617" height="153" alt="Screenshot 2026-04-02 225125" src="https://github.com/user-attachments/assets/c06a0d68-1c37-485c-abc5-f42ece03f146" />
+
 Так как у нас пока только один добавленный файл, он нам и выводится
 ### Прочтение конкретного файла:
 
@@ -103,7 +110,8 @@ s3_get(buck, key)
 ```
 
 Вывод в терминале:
-![[Pasted image 20260402225322.png]]
+<img width="611" height="115" alt="Screenshot 2026-04-02 225312" src="https://github.com/user-attachments/assets/8f1504bb-d23c-4e6c-8f5b-8d123a073d7e" />
+
 
 ### Удаление файла:
 
@@ -120,5 +128,6 @@ s3_delete(buck, key)
 ```
 
 После выполнения функции в YandexCloud уже будет отсутсвовать файл, так как он был удалён:
-![[Pasted image 20260402225431.png]]
+<img width="1122" height="537" alt="Screenshot 2026-04-02 225403" src="https://github.com/user-attachments/assets/e080b1ba-b32b-4817-b25d-18d6ca797661" />
+
 
