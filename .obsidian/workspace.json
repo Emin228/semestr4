@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "08d0bf7e6fbbb97d",
+        "id": "2a261b2cb8867c9e",
         "type": "tabs",
         "children": [
           {
-            "id": "8aa1037c43817676",
+            "id": "17b072d69b3f2cbe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "комп мод/yandex cloud.md",
+                "file": "Долги.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "yandex cloud"
+              "title": "Долги"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5,
-    "collapsed": true
+    "width": 345.5110321044922
   },
   "right": {
     "id": "6b8e25713142b72d",
@@ -184,31 +183,42 @@
       "bases:Create new base": false
     }
   },
-  "active": "8aa1037c43817676",
+  "active": "17b072d69b3f2cbe",
   "lastOpenFiles": [
-    "Pasted image 20260402225431.png",
-    "Pasted image 20260402225322.png",
-    "Pasted image 20260402225240.png",
-    "Pasted image 20260402225127.png",
-    "Pasted image 20260402225126.png",
-    "Pasted image 20260402225012.png",
-    "комп мод/bucket.py",
-    "Pasted image 20260402161659.png",
-    "Pasted image 20260402161657.png",
-    "Pasted image 20260402161408.png",
-    "Pasted image 20260402161247.png",
-    "Pasted image 20260402160908.png",
-    "комп мод/example.txt",
-    "комп мод/New Text Document.txt",
-    "мат стат/эспер данные/17472D20",
+    "comp_pract/laba4/laba4.py",
+    "comp_pract/laba4",
+    "comp_pract/New folder",
+    "comp_pract/laba3/Laba3.md",
+    "comp_pract/laba3/Laba3_Elizbaryan_1-1.pdf",
+    "comp_pract/laba3/Pasted image 20260603200554.png",
+    "comp_pract/laba3/Pasted image 20260603200512.png",
+    "comp_pract/laba3/Pasted image 20260603200454.png",
+    "comp_pract/laba3/Pasted image 20260603195917.png",
+    "comp_pract/laba3/Pasted image 20260603194333.png",
+    "comp_pract/laba3/Pasted image 20260603193729.png",
+    "OC/laba3/Laba3.md",
     "Долги.md",
+    "comp_pract/laba3",
+    "comp_pract",
+    "OC/laba6/laba6.md",
+    "OC/laba6/Elizbaryan 1-1 laba6.pdf",
+    "Terminal.md",
+    "OC/laba6",
+    "OC/laba5/laba5.md",
+    "OC/laba5/laba5.pdf",
+    "OC/laba5/Elizbaryan EV ivt1-1 laba5.pdf",
+    "OC/laba5/Pasted image 20260525211004.png",
+    "OC/laba5/Pasted image 20260525210835.png",
+    "OC/laba5",
+    "OC/laba4/laba4.md",
+    "OC/laba4/Pasted image 20260524220636.png",
+    "OC/laba4/Pasted image 20260524220510.png",
+    "OC/laba2/Laba2.md",
+    "OC/Laba2.md",
+    "чт надо.md",
+    "angl1 text.md",
+    "Pasted.md",
     "комп мод/yandex cloud.md",
-    "комп мод",
-    "мат стат/эспер данные/D10B7C20",
-    "мат стат/доверительный интервал/70A07C20",
-    "мат стат/эспер данные/~$Обработка_эксперементальных_данных_Элизбарян Э,В,.xlsx",
-    "мат стат/эспер данные/Обработка_эксперементальных_данных_Элизбарян Э,В,.xlsx",
-    "мат стат/эспер данные/~ew Microsoft Excel Worksheet.tmp",
     "бд/lab№1.md",
     "proga/laba3/Отчёт по лабораторной работе№3.md",
     "2026-03-14.md",
