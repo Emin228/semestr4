@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "comp_pract/laba5/laba5.md",
+                "file": "comp_pract/laba7/laba7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "laba5"
+              "title": "laba7"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.5110321044922,
-    "collapsed": true
+    "width": 345.5110321044922
   },
   "right": {
     "id": "6b8e25713142b72d",
@@ -186,17 +185,21 @@
   },
   "active": "17b072d69b3f2cbe",
   "lastOpenFiles": [
+    "comp_pract/laba7/README.md",
+    "comp_pract/laba7/laba7.md",
     "Долги.md",
+    "comp_pract/laba7/app.js",
+    "comp_pract/laba7/index.html",
+    "comp_pract/laba7/main.c",
+    "comp_pract/laba7",
+    "comp_pract/New folder",
     "comp_pract/laba5/laba5.md",
+    "comp_pract/laba5/laba5_Elizbaryan_1-1.pdf",
     "comp_pract/laba5/__pycache__/laba5.cpython-314.pyc",
     "comp_pract/laba5/__pycache__",
     "comp_pract/laba5/laba5.py",
     "comp_pract/laba5",
-    "comp_pract/New folder",
-    "comp_pract/laba4/laba4.py",
-    "comp_pract/laba4",
     "comp_pract/laba3/Laba3.md",
-    "comp_pract/laba3/Laba3_Elizbaryan_1-1.pdf",
     "comp_pract/laba3/Pasted image 20260603200554.png",
     "comp_pract/laba3/Pasted image 20260603200512.png",
     "comp_pract/laba3/Pasted image 20260603200454.png",
@@ -204,8 +207,6 @@
     "comp_pract/laba3/Pasted image 20260603194333.png",
     "comp_pract/laba3/Pasted image 20260603193729.png",
     "OC/laba3/Laba3.md",
-    "comp_pract/laba3",
-    "comp_pract",
     "OC/laba6/laba6.md",
     "Terminal.md",
     "OC/laba5/laba5.md",
