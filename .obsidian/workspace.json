@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Долги.md",
+                "file": "comp_pract/laba5/laba5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Долги"
+              "title": "laba5"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.5110321044922
+    "width": 345.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "6b8e25713142b72d",
@@ -185,9 +186,15 @@
   },
   "active": "17b072d69b3f2cbe",
   "lastOpenFiles": [
+    "Долги.md",
+    "comp_pract/laba5/laba5.md",
+    "comp_pract/laba5/__pycache__/laba5.cpython-314.pyc",
+    "comp_pract/laba5/__pycache__",
+    "comp_pract/laba5/laba5.py",
+    "comp_pract/laba5",
+    "comp_pract/New folder",
     "comp_pract/laba4/laba4.py",
     "comp_pract/laba4",
-    "comp_pract/New folder",
     "comp_pract/laba3/Laba3.md",
     "comp_pract/laba3/Laba3_Elizbaryan_1-1.pdf",
     "comp_pract/laba3/Pasted image 20260603200554.png",
@@ -197,19 +204,13 @@
     "comp_pract/laba3/Pasted image 20260603194333.png",
     "comp_pract/laba3/Pasted image 20260603193729.png",
     "OC/laba3/Laba3.md",
-    "Долги.md",
     "comp_pract/laba3",
     "comp_pract",
     "OC/laba6/laba6.md",
-    "OC/laba6/Elizbaryan 1-1 laba6.pdf",
     "Terminal.md",
-    "OC/laba6",
     "OC/laba5/laba5.md",
-    "OC/laba5/laba5.pdf",
-    "OC/laba5/Elizbaryan EV ivt1-1 laba5.pdf",
     "OC/laba5/Pasted image 20260525211004.png",
     "OC/laba5/Pasted image 20260525210835.png",
-    "OC/laba5",
     "OC/laba4/laba4.md",
     "OC/laba4/Pasted image 20260524220636.png",
     "OC/laba4/Pasted image 20260524220510.png",
