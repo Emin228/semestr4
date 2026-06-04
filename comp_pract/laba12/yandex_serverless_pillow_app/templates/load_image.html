@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Load Image</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 760px;
+            margin: 40px auto;
+            padding: 0 16px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 14px;
+        }
+
+        input {
+            padding: 8px;
+            width: 320px;
+        }
+
+        button {
+            padding: 9px 16px;
+            cursor: pointer;
+        }
+
+        .message {
+            color: green;
+            font-weight: bold;
+        }
+
+        .error {
+            color: red;
+            font-weight: bold;
+        }
+
+        nav {
+            margin-bottom: 24px;
+        }
+
+        nav a {
+            margin-right: 12px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/makeimage">Создать изображение</a>
+        <a href="/load_image">Загрузить изображение</a>
+        <a href="/images">Все изображения</a>
+        <a href="/login">Login</a>
+    </nav>
+
+    <h1>Загрузка изображения</h1>
+
+    {% if message %}
+        {% if "exists" in message or "Invalid" in message or "No file" in message %}
+            <p class="error">{{ message }}</p>
+        {% else %}
+            <p class="message">{{ message }}</p>
+        {% endif %}
+    {% endif %}
+
+    <form method="POST" action="/load_image" enctype="multipart/form-data">
+        <label>
+            Название изображения:
+            <br>
+            <input type="text" id="image_name" name="image_name" placeholder="Можно оставить пустым">
+        </label>
+
+        <label>
+            Файл изображения:
+            <br>
+            <input type="file" id="image_file" name="image_file" accept="image/*" required>
+        </label>
+
+        <button type="submit">Upload image</button>
+    </form>
+
+    <script>
+        const fileInput = document.getElementById("image_file");
+        const nameInput = document.getElementById("image_name");
+
+        fileInput.addEventListener("change", function () {
+            if (!nameInput.value && fileInput.files.length > 0) {
+                const fileName = fileInput.files[0].name;
+                const dotIndex = fileName.lastIndexOf(".");
+                nameInput.value = dotIndex > 0 ? fileName.slice(0, dotIndex) : fileName;
+            }
+        });
+    </script>
+</body>
+</html>
