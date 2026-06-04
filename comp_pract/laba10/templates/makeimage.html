@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Make Image</title>
+</head>
+<body>
+    <h1>Generate JPG Image</h1>
+
+    {% if message %}
+        <p style="color: red; font-weight: bold;">
+            message: "{{ message }}"
+        </p>
+    {% endif %}
+
+    <form method="POST" action="/makeimage" enctype="application/x-www-form-urlencoded">
+        <label>
+            Width:
+            <input type="text" name="width" required>
+        </label>
+        <br><br>
+
+        <label>
+            Height:
+            <input type="text" name="height" required>
+        </label>
+        <br><br>
+
+        <label>
+            Text:
+            <input type="text" name="text" required>
+        </label>
+        <br><br>
+
+        <button type="submit">Generate image</button>
+    </form>
+</body>
+</html>
