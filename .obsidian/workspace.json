@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Долги.md",
+                "file": "proga/laba2/отчёт лаба2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Долги"
+              "title": "отчёт лаба2"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.5110321044922,
-    "collapsed": true
+    "width": 345.5110321044922
   },
   "right": {
     "id": "6b8e25713142b72d",
@@ -186,20 +185,20 @@
   },
   "active": "17b072d69b3f2cbe",
   "lastOpenFiles": [
-    "comp_pract/laba12/yandex_serverless_pillow_app/templates/images.html",
-    "comp_pract/laba12/yandex_serverless_pillow_app/templates/load_image.html",
-    "comp_pract/laba12/yandex_serverless_pillow_app/templates/makeimage.html",
-    "comp_pract/laba12/yandex_serverless_pillow_app/templates",
-    "comp_pract/laba12/yandex_serverless_pillow_app/main.py",
-    "comp_pract/laba12/yandex_serverless_pillow_app/Dockerfile",
-    "comp_pract/laba12/yandex_serverless_pillow_app/requirements.txt",
-    "comp_pract/laba12/yandex_serverless_pillow_app",
-    "comp_pract/laba12",
-    "comp_pract/New folder",
-    "comp_pract/laba10/__pycache__/main.cpython-314.pyc",
+    "Долги.md",
+    "proga/laba2/отчёт лаба2.md",
+    "выч_техника/lab12_elizbaryan_emin.pdf",
+    "выч_техника/mso644D.tmp",
+    "выч_техника/mso615E.tmp",
+    "выч_техника/lab11_elizbaryan_emin.pdf",
+    "выч_техника/mso53F9.tmp",
+    "выч_техника/mso504F.tmp",
+    "выч_техника/lab10_elizbaryan_emin.pdf",
+    "выч_техника/msoCDE5.tmp",
+    "выч_техника/msoCAE6.tmp",
+    "выч_техника/mso1EB3.tmp",
     "comp_pract/laba7/laba7.md",
     "comp_pract/laba7/README.md",
-    "Долги.md",
     "comp_pract/laba5/laba5.md",
     "comp_pract/laba3/Laba3.md",
     "comp_pract/laba3/Pasted image 20260603200554.png",

@@ -1,85 +1,117 @@
-import requests
-import yaml
 import csv
 import io
-
+import json
 from abc import ABC, abstractmethod
+from typing import Any
+
+import requests
+import yaml
+
+
 class Component(ABC):
     """
-    Базовый интерфейс Компонента определяpip install PyYAMLет поведение,
-    которое изменяется декораторами.
+    Общий интерфейс компонента.
+    Все конкретные компоненты и декораторы должны реализовывать operation().
     """
+
     @abstractmethod
-    def operation(self):
+    def operation(self) -> Any:
         pass
 
 
+class ConcreteComponent(Component):
+    """
+    Конкретный компонент получает исходные данные с сайта ЦБ РФ
+    и возвращает их в виде словаря Python.
+    """
 
-class  ConcreteComponent(Component):
     def operation(self) -> dict:
         url = "https://www.cbr-xml-daily.ru/daily_json.js"
-        r = requests.get(url)
-        return r.json()
-        
-    
+
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+
+        return response.json()
+
 
 class Decorator(Component):
     """
-    Базовый класс Декоратора следует тому же интерфейсу, что и другие
-    компоненты. Основная цель этого класса - определить интерфейс обёртки для
-    всех конкретных декораторов. Реализация кода обёртки по умолчанию может
-    включать в себя поле для хранения завёрнутого компонента и средства его
-    инициализации.
+    Базовый декоратор хранит ссылку на объект Component
+    и делегирует ему выполнение operation().
     """
+
     def __init__(self, component: Component) -> None:
         self._component = component
 
     @property
     def component(self) -> Component:
-        """
-        Декоратор делегирует всю работу обёрнутому компоненту.
-        """
-
         return self._component
 
-    def operation(self):
+    def operation(self) -> Any:
         return self._component.operation()
 
 
-class YamlDecorator(Decorator):
-    def operation(self) -> str:
-        data  = super().operation()
-        return yaml.dump(data, allow_unicode=True)
-    
-class CsvDecorator(Decorator):
+class JsonDecorator(Decorator):
+    """
+    Декоратор преобразует данные в JSON-строку.
+    """
+
     def operation(self) -> str:
         data = super().operation()
+        return json.dumps(data, ensure_ascii=False, indent=4)
+
+
+class YamlDecorator(Decorator):
+    """
+    Декоратор преобразует данные в YAML-строку.
+    """
+
+    def operation(self) -> str:
+        data = super().operation()
+        return yaml.safe_dump(data, allow_unicode=True, sort_keys=False)
+
+
+class CsvDecorator(Decorator):
+    """
+    Декоратор преобразует данные о валютах в CSV-строку.
+    """
+
+    def operation(self) -> str:
+        data = super().operation()
+
         output = io.StringIO()
         writer = csv.writer(output)
 
-        # заголовки
-        writer.writerow(["Currency", "Value"])
+        writer.writerow(["Code", "Name", "Nominal", "Value", "Previous"])
 
-        # данные (пример: Valute)
-        for code, val in data["Valute"].items():
-            writer.writerow([code, val["Value"]])
+        for code, valute in data.get("Valute", {}).items():
+            writer.writerow([
+                code,
+                valute.get("Name", ""),
+                valute.get("Nominal", ""),
+                valute.get("Value", ""),
+                valute.get("Previous", "")
+            ])
 
         return output.getvalue()
 
 
 def client_code(component: Component) -> None:
     """
-    Клиентский код работает со всеми объектами, используя интерфейс Компонента.
-    Таким образом, он остаётся независимым от конкретных классов компонентов, с
-    которыми работает.
+    Клиентский код работает с любым объектом через общий интерфейс Component.
     """
 
-    # ...
+    print(component.operation())
 
-    print(f"RESULT: {component.operation()}", end="")
-    
-simple = ConcreteComponent()
-print("Client: I've got a simple component:")
-client_code(simple)
 
-print("\n")
+if __name__ == "__main__":
+    source = ConcreteComponent()
+
+    print("===== JSON =====")
+    client_code(JsonDecorator(source))
+
+    print("\n===== YAML =====")
+    client_code(YamlDecorator(source))
+
+    print("\n===== CSV =====")
+    client_code(CsvDecorator(source))
