@@ -11,12 +11,14 @@
             "id": "17b072d69b3f2cbe",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "бд/lab№2.pdf"
+                "file": "OC/laba9/laba9.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "lab№2"
+              "icon": "lucide-file",
+              "title": "laba9"
             }
           }
         ]
@@ -77,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.5110321044922
+    "width": 200
   },
   "right": {
     "id": "6b8e25713142b72d",
@@ -184,49 +186,51 @@
   },
   "active": "17b072d69b3f2cbe",
   "lastOpenFiles": [
-    "бд/lab№2.md",
+    "OC/laba9/laba9.pdf",
+    "OC/laba9/Pasted image 20260616230304.png",
     "Долги.md",
-    "Untitled 1.base",
-    "бд/lab№2.pdf",
-    "бд/Pasted image 20260615210004.png",
-    "бд/2.2.png",
-    "бд/FirstModel.mwb",
-    "бд/FirstModel.mwb.00b25561",
-    "бд/2.1.png",
+    "OC/laba9/laba9.md",
+    "OC/laba9/Pasted image 20260616230028.png",
+    "OC/laba9/Pasted image 20260616225920.png",
+    "OC/laba9/Pasted image 20260616225844.png",
+    "OC/laba9/Pasted image 20260616225835.png",
+    "OC/laba9/Pasted image 20260616225346.png",
+    "OC/laba9/Pasted image 20260616225041.png",
+    "OC/laba9/Pasted image 20260616224834.png",
+    "OC/laba9/Pasted image 20260616224708.png",
+    "OC/laba9/Pasted image 20260616224438.png",
+    "OC/laba12/Laba12.md",
+    "OC/laba12",
+    "OC/laba7/Laba7.md",
+    "OC/laba7/Laba7.pdf",
+    "OC/laba11/Laba11.md",
+    "OC/laba11/Laba11.pdf",
+    "бд/lab№2.md",
+    "OC/laba11",
+    "OC/laba10",
+    "OC/laba9",
+    "OC/laba8",
+    "OC/laba7",
     "бд/lab№1.md",
-    "бд/lab№4.md",
+    "бд/lab№2.pdf",
     "бд/lab№3.md",
+    "бд/lab№4.md",
+    "мат стат/Регресионный_анализ_ЭлизбарянЭ.В,ИВТ1-1.pdf",
     "proga/laba2/отчёт лаба2.md",
-    "выч_техника/lab12_elizbaryan_emin.pdf",
-    "выч_техника/mso644D.tmp",
-    "выч_техника/mso615E.tmp",
-    "выч_техника/lab11_elizbaryan_emin.pdf",
-    "выч_техника/mso53F9.tmp",
-    "выч_техника/mso504F.tmp",
     "comp_pract/laba7/laba7.md",
     "comp_pract/laba7/README.md",
     "comp_pract/laba5/laba5.md",
     "comp_pract/laba3/Laba3.md",
-    "comp_pract/laba3/Pasted image 20260603200554.png",
-    "comp_pract/laba3/Pasted image 20260603200512.png",
-    "comp_pract/laba3/Pasted image 20260603200454.png",
-    "comp_pract/laba3/Pasted image 20260603195917.png",
-    "comp_pract/laba3/Pasted image 20260603194333.png",
-    "comp_pract/laba3/Pasted image 20260603193729.png",
     "OC/laba3/Laba3.md",
     "OC/laba6/laba6.md",
     "Terminal.md",
     "OC/laba5/laba5.md",
-    "OC/laba5/Pasted image 20260525211004.png",
     "OC/laba4/laba4.md",
     "OC/laba2/Laba2.md",
     "OC/Laba2.md",
     "чт надо.md",
     "angl1 text.md",
     "Pasted.md",
-    "комп мод/yandex cloud.md",
-    "proga/laba3/Отчёт по лабораторной работе№3.md",
-    "2026-03-14.md",
-    "proga/laba1/Отчёт по лабораторной работе №1.md"
+    "комп мод/yandex cloud.md"
   ]
 }
