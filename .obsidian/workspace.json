@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OC/laba9/laba9.md",
+                "file": "OC/laba10/laba10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "laba9"
+              "title": "laba10"
             }
           }
         ]
@@ -186,19 +186,21 @@
   },
   "active": "17b072d69b3f2cbe",
   "lastOpenFiles": [
-    "OC/laba9/laba9.pdf",
-    "OC/laba9/Pasted image 20260616230304.png",
+    "OC/laba10/laba10.pdf",
+    "OC/laba10/Pasted image 20260616233513.png",
+    "OC/laba10/Pasted image 20260616232838.png",
+    "OC/laba10/Pasted image 20260616232715.png",
+    "OC/laba10/Pasted image 20260616232418.png",
+    "OC/laba10/Pasted image 20260616232352.png",
+    "OC/laba10/Pasted image 20260616232342.png",
+    "OC/laba10/Pasted image 20260616232310.png",
+    "OC/laba10/Pasted image 20260616232250.png",
+    "OC/laba10/Pasted image 20260616232156.png",
+    "OC/laba10/Pasted image 20260616232026.png",
     "Долги.md",
+    "OC/laba10/laba10.md",
     "OC/laba9/laba9.md",
-    "OC/laba9/Pasted image 20260616230028.png",
-    "OC/laba9/Pasted image 20260616225920.png",
-    "OC/laba9/Pasted image 20260616225844.png",
-    "OC/laba9/Pasted image 20260616225835.png",
-    "OC/laba9/Pasted image 20260616225346.png",
-    "OC/laba9/Pasted image 20260616225041.png",
-    "OC/laba9/Pasted image 20260616224834.png",
-    "OC/laba9/Pasted image 20260616224708.png",
-    "OC/laba9/Pasted image 20260616224438.png",
+    "OC/laba9/laba9.pdf",
     "OC/laba12/Laba12.md",
     "OC/laba12",
     "OC/laba7/Laba7.md",
@@ -215,7 +217,6 @@
     "бд/lab№2.pdf",
     "бд/lab№3.md",
     "бд/lab№4.md",
-    "мат стат/Регресионный_анализ_ЭлизбарянЭ.В,ИВТ1-1.pdf",
     "proga/laba2/отчёт лаба2.md",
     "comp_pract/laba7/laba7.md",
     "comp_pract/laba7/README.md",
@@ -230,7 +231,6 @@
     "OC/Laba2.md",
     "чт надо.md",
     "angl1 text.md",
-    "Pasted.md",
-    "комп мод/yandex cloud.md"
+    "Pasted.md"
   ]
 }
