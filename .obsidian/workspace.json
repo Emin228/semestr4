@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OC/laba10/laba10.md",
+                "file": "comp_pract/laba4/отчёт.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "laba10"
+              "title": "отчёт"
             }
           }
         ]
@@ -186,6 +186,11 @@
   },
   "active": "17b072d69b3f2cbe",
   "lastOpenFiles": [
+    "OC/laba4/laba4.md",
+    "comp_pract/laba4/отчёт.md",
+    "Долги.md",
+    "OC/laba12/Laba12.md",
+    "OC/laba10/laba10.md",
     "OC/laba10/laba10.pdf",
     "OC/laba10/Pasted image 20260616233513.png",
     "OC/laba10/Pasted image 20260616232838.png",
@@ -197,11 +202,8 @@
     "OC/laba10/Pasted image 20260616232250.png",
     "OC/laba10/Pasted image 20260616232156.png",
     "OC/laba10/Pasted image 20260616232026.png",
-    "Долги.md",
-    "OC/laba10/laba10.md",
     "OC/laba9/laba9.md",
     "OC/laba9/laba9.pdf",
-    "OC/laba12/Laba12.md",
     "OC/laba12",
     "OC/laba7/Laba7.md",
     "OC/laba7/Laba7.pdf",
@@ -214,7 +216,6 @@
     "OC/laba8",
     "OC/laba7",
     "бд/lab№1.md",
-    "бд/lab№2.pdf",
     "бд/lab№3.md",
     "бд/lab№4.md",
     "proga/laba2/отчёт лаба2.md",
@@ -226,7 +227,6 @@
     "OC/laba6/laba6.md",
     "Terminal.md",
     "OC/laba5/laba5.md",
-    "OC/laba4/laba4.md",
     "OC/laba2/Laba2.md",
     "OC/Laba2.md",
     "чт надо.md",
